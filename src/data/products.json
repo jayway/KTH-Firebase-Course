@@ -1,0 +1,64 @@
+[
+	{
+			"id": "engage",
+			"name": "Engage",
+			"features": [
+				{
+					"id": "1",
+					"name": "A/B Testing",
+					"slug": "ab-testing"
+				},
+				{
+					"id": "2",
+					"name": "Cloud Messaging",
+					"slug": "cloud-messaging"
+				},
+				{
+					"id": "3",
+					"name": "In-App Messaging",
+					"slug": "in-app-messaging"
+				},
+				{
+					"id": "4",
+					"name": "Remote Config",
+					"slug": "remote-config"
+				},
+				{
+					"id": "5",
+					"name": "Dynamic Links",
+					"slug": "dynamic-links"
+				},
+				{
+					"id": "6",
+					"name": "AdMob",
+					"slug": "admob"
+				}
+			]
+	},
+	{
+			"id": "monitor",
+			"name": "Release & Monitor",
+			"features": [
+				{
+					"id": "1",
+					"name": "Crashlytics",
+					"slug": "crashlytics"
+				},
+				{
+					"id": "2",
+					"name": "Performance Monitoring",
+					"slug": "perf-mon"
+				},
+				{
+					"id": "3",
+					"name": "Test lab",
+					"slug": "test-lab"
+				},
+				{
+					"id": "4",
+					"name": "App distribution",
+					"slug": "app-distribution"
+				}
+			]
+		}
+]

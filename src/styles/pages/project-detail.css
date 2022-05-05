@@ -1,0 +1,10 @@
+.link-to-doc {
+	margin-top: 1.5rem;
+	font-size: 1.1rem;
+	color: var(--color-pink);
+}
+.link-to-doc a {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}

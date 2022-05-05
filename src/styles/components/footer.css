@@ -1,0 +1,6 @@
+footer {
+  min-height: 10vh;
+  background-color: var(--color-pink);
+  color: var(--color-white);
+  align-items: center;
+}

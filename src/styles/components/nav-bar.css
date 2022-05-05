@@ -1,0 +1,33 @@
+.navigation-bar {
+	padding: var(--space-small);
+	height: auto;
+	background-color: var(--color-white);
+	box-shadow: 0 3px 6px rgb(0 0 0 / 7%);
+	display: flex;
+	align-items: center;
+	gap: 5vw;
+}
+
+.logo-container a {
+	font-size: 0;
+}
+
+img {
+	width: auto;
+	height: 3rem;
+	border-radius: 50%;
+}
+
+.nav-link {
+	margin-right: 4vw;
+	font-size: 0.75rem;
+	font-weight: 600;
+}
+
+.nav-link a {
+	text-decoration: none;
+}
+
+.nav-link a.active {
+	color: var(--color-pink);
+}

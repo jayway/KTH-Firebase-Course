@@ -1,0 +1,22 @@
+:root {
+	/* Color */
+	--color-pink: #f8485e;
+	--color-light-pink: #fa9ca8;
+	--color-light-green: #3cbb9bd0;
+	--color-white: #ffffff;
+	--color-purple: #9949ff;
+	--color-orange: #ffa149;
+
+	/* Space */
+	--space-small: 8px;
+	--space-medium: 16px;
+	--space-big: 24px;
+
+	/* Font sizes */
+	--font-size-small: 12px;
+	--font-size-medium: 16px;
+	--font-size-big: 20px;
+	--font-size-ultra: 45px;
+
+}
+

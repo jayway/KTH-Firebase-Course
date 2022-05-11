@@ -2,8 +2,8 @@
 import { getAnalytics } from "firebase/analytics";
 
 // Project files
-import { app } from "../firebase";
+import { firebaseApp } from "../firebase";
 
-const analytics = getAnalytics(app);
+const analytics = getAnalytics(firebaseApp);
 
 export { analytics };

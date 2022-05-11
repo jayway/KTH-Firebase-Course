@@ -1,0 +1,22 @@
+[
+	{
+		"id": "engage",
+		"name": "Engage",
+		"path": "product-detail/engage"
+	},
+	{
+		"id": "monitor",
+		"name": "Release & Monitor",
+		"path": "product-detail/monitor"
+	},
+	{
+		"id": "performanceLow",
+		"name": "Slow content",
+		"path": "performance/slow"
+	},
+	{
+		"id": "performanceFast",
+		"name": "Fast content",
+		"path": "performance/fast"
+	}
+]

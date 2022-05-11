@@ -36,3 +36,9 @@
 .buttons.beta-mode .btn:nth-child(2) {
 	background-color: var(--color-orange);
 }
+
+.new-feature {
+	margin-top: 6vh;
+	text-align: center;
+	font-size: 1.1rem;
+}

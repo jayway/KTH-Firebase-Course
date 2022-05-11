@@ -15,7 +15,6 @@ export default function ProductDetail() {
 	)[0];
 
 	const { features: productFeatures } = currentProduct;
-
 	const FeatureLinks = productFeatures.map(({ id, name, slug }) => {
 		const url = `https://firebase.google.com/docs/${slug}`;
 
@@ -30,7 +29,7 @@ export default function ProductDetail() {
 
 	return (
 		<div className="page product-detail">
-			<h1>Product page</h1>
+			<h1>{currentProduct.name} page</h1>
 			<ul>{FeatureLinks}</ul>
 		</div>
 	);

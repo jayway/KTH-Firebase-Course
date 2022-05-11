@@ -1,14 +1,27 @@
 // NPM packages
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 // Project files
+
+import Hamburger from "./Hamburger";
 import Logo from "../assets/images/logo.png";
-import products from "../data/products.json";
+import menuLinks from "../data/menuLinks.json";
 
 export default function NavBar() {
-	const NavLinks = products.map(({ id, name }) => (
+	// Local state
+	const [hamburgerOpen, setHamburgerOpen] = useState(false);
+
+	// Methods
+	const toggleHamburger = () => {
+		setHamburgerOpen(!hamburgerOpen);
+	};
+
+	const NavLinks = menuLinks.map(({ id, name, path }) => (
 		<li key={id} className="nav-link">
-			<NavLink to={`product-detail/${id}`}>{name}</NavLink>
+			<NavLink to={path} onClick={() => setHamburgerOpen(false)}>
+				{name}
+			</NavLink>
 		</li>
 	));
 
@@ -19,7 +32,12 @@ export default function NavBar() {
 					<img src={Logo} alt="Demo logo" />
 				</NavLink>
 			</div>
-			<ul className="nav-links flex-center">{NavLinks}</ul>
+			<ul className={`nav-links flex-center ${hamburgerOpen ? "open" : ""}`}>
+				{NavLinks}
+			</ul>
+			<div className="hamburger-wrapper" onClick={toggleHamburger}>
+				<Hamburger isOpen={hamburgerOpen} />
+			</div>
 		</nav>
 	);
 }

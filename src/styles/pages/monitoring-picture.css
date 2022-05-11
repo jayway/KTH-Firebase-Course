@@ -1,0 +1,15 @@
+.monitoring-picture {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.monitoring-picture h1 {
+	text-transform: capitalize;
+}
+
+.monitoring-picture img {
+	width: 150px;
+	height: auto;
+	margin: 0 auto;
+}

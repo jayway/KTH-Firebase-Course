@@ -31,3 +31,48 @@ img {
 .nav-link a.active {
 	color: var(--color-pink);
 }
+
+.hamburger-wrapper {
+	display: none;
+	z-index: 6;
+}
+
+.navigation {
+	width: 100%;
+	height: 50px;
+}
+
+@media (max-width: 767px) {
+	.hamburger-wrapper {
+		display: block;
+		padding-top: 10px;
+		margin-left: 15px;
+		z-index: 6;
+	}
+
+	.navigation-bar ul {
+		display: none;
+		height: 75vh;
+		width: 50vw;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: var(--color-pink);
+		color: var(--color-white);
+	}
+
+	.navigation-bar ul.open {
+		display: block;
+		padding-top: 110px;
+		padding-left: 15px;
+	}
+
+	.nav-link {
+		margin-bottom: 0.9rem;
+		font-size: 1.1em;
+	}
+
+	.nav-link a.active {
+		color: inherit;
+	}
+}

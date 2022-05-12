@@ -3,14 +3,15 @@ import { initializeApp } from "firebase/app";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCoYQUzGq-N9F7lYr_u8iYcUwoilcwl0dM",
-  authDomain: "kth-firebase-course.firebaseapp.com",
-  projectId: "kth-firebase-course",
-  storageBucket: "kth-firebase-course.appspot.com",
-  messagingSenderId: "891788964114",
-  appId: "1:891788964114:web:af6d973de11dec4fc1c3cb",
-  measurementId: "G-0FV0ZKZ53X",
+	apiKey: "<API_KEY>",
+	authDomain: "<PROJECT_ID>.firebaseapp.com",
+	projectId: "<PROJECT_ID>",
+	storageBucket: "<BUCKET>.appspot.com",
+	messagingSenderId: "<MEASUREMENT_SENDER_ID>",
+	appId: "<APP_ID>",
+	measurementId: "<MEASUREMENT_ID>",
 };
+
 
 // Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig);

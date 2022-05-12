@@ -14,14 +14,14 @@ import { perf } from "../script/services/performanceMonitoring";
 
 export default function Home() {
 	// Constants
-	const { defaultConfig } = remoteConfig;
+	//const { defaultConfig } = remoteConfig;
 	const t = trace(perf, "FUNC_PERFORMANCE");
 
 	// Local state
 	const [isLoaded, setLoaded] = useState(false);
 	const [isBetaMode, setIsBetaMode] = useState();
-	const [mainHeader, setMainHeader] = useState('');
-	const [isNewFeature, seNewFeature] = useState(defaultConfig.isNewFeature);
+	const [mainHeader, setMainHeader] = useState();
+	const [isNewFeature, seNewFeature] = useState();
 
 	useEffect(() => {
 		t.start();

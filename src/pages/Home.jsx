@@ -19,9 +19,9 @@ export default function Home() {
 
 	// Local state
 	const [isLoaded, setLoaded] = useState(false);
-	const [isBetaMode, setIsBetaMode] = useState(defaultConfig.isBetaMode);
-	const [mainHeader, setMainHeader] = useState(defaultConfig.mainHeader);
-	const [isNewFeature, seNewFeature] = useState(defaultConfig.newFeature);
+	const [isBetaMode, setIsBetaMode] = useState();
+	const [mainHeader, setMainHeader] = useState('');
+	const [isNewFeature, seNewFeature] = useState(defaultConfig.isNewFeature);
 
 	useEffect(() => {
 		t.start();

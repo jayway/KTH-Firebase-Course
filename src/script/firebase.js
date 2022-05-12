@@ -1,7 +1,6 @@
 // NPM packages
 import { initializeApp } from "firebase/app";
 
-
 const firebaseConfig = {
 	apiKey: "<API_KEY>",
 	authDomain: "<PROJECT_ID>.firebaseapp.com",
@@ -11,7 +10,6 @@ const firebaseConfig = {
 	appId: "<APP_ID>",
 	measurementId: "<MEASUREMENT_ID>",
 };
-
 
 // Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig);
